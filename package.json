@@ -1,0 +1,23 @@
+{
+  "name": "vision-blog",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vuepress dev docs --no-clear-screen",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vuepress-plugin-img-lazy": "^1.0.4",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.9.7",
+    "dayjs": "^1.11.0",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-one-click-copy": "^1.0.6",
+    "vuepress-plugin-seo": "^0.2.0",
+    "vuepress-plugin-zooming": "^1.1.8",
+    "vuepress-theme-vdoing": "^1.10.1"
+  }
+}
